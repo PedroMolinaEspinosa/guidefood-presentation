@@ -10,7 +10,7 @@ class Diapositiva1 extends StatefulWidget {
 class _Diapositiva1State extends State<Diapositiva1> {
   Timer _timer;
   _Diapositiva1State() {
-    _timer = new Timer(const Duration(seconds: 10), () {
+    _timer = new Timer(const Duration(seconds: 1), () {
       setState(() {
         Navigator.pushReplacementNamed(context, "diapositiva2");
       });

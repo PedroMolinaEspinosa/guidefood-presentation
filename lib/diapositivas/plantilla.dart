@@ -3,17 +3,21 @@ import 'package:flutter/material.dart';
 class Plantilla extends StatefulWidget {
   String siguienteDiapositiva;
   Widget widgetPasado;
+  String titulo;
 
-  Plantilla({this.siguienteDiapositiva, this.widgetPasado});
+  Plantilla({this.siguienteDiapositiva, this.widgetPasado, this.titulo});
   @override
   _PlantillaState createState() => _PlantillaState(
-      siguienteDiapositiva: siguienteDiapositiva, widgetPasado: widgetPasado);
+      siguienteDiapositiva: siguienteDiapositiva,
+      widgetPasado: widgetPasado,
+      titulo: titulo);
 }
 
 class _PlantillaState extends State<Plantilla> {
   String siguienteDiapositiva;
   Widget widgetPasado;
-  _PlantillaState({this.siguienteDiapositiva, this.widgetPasado});
+  String titulo;
+  _PlantillaState({this.siguienteDiapositiva, this.widgetPasado, this.titulo});
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -58,6 +62,20 @@ class _PlantillaState extends State<Plantilla> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: <Widget>[
+                          titulo != null
+                              ? Container(
+                                  margin:
+                                      EdgeInsets.only(right: size.width * 0.03),
+                                  width: size.width * 0.4,
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    titulo,
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        fontFamily: "Montserrat-Bold"),
+                                  ),
+                                )
+                              : Container(),
                           Container(
                             alignment: Alignment.center,
                             child: Image.asset("assets/images/logo_insti.png"),
@@ -152,7 +170,8 @@ class _PlantillaState extends State<Plantilla> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        Navigator.pushNamed(context, siguienteDiapositiva);
+                        if (siguienteDiapositiva != null)
+                          Navigator.pushNamed(context, siguienteDiapositiva);
                       },
                       child: Container(
                         margin: EdgeInsets.only(left: size.width * 0.05),
