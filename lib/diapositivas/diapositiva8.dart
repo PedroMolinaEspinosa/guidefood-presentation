@@ -20,7 +20,7 @@ class Diapositiva8 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva9",
+          siguienteDiapositiva: "diapositiva12",
           titulo: "8. NodeJs",
         ),
       ),

@@ -66,11 +66,15 @@ class Diapositiva7 extends StatelessWidget {
                         vertical: size.height * 0.01,
                         horizontal: size.width * 0.05),
                     child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -135,11 +139,15 @@ class Diapositiva7 extends StatelessWidget {
                         vertical: size.height * 0.01,
                         horizontal: size.width * 0.05),
                     child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),

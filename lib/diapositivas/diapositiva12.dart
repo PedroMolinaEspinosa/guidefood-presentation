@@ -21,7 +21,7 @@ class Diapositiva12 extends StatelessWidget {
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
           siguienteDiapositiva: "diapositiva13",
-          titulo: "12. ¿Por qué estas tecnologías?",
+          titulo: "9. ¿Por qué estas tecnologías?",
         ),
       ),
     );

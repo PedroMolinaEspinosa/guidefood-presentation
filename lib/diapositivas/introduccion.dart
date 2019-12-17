@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guidefood_presentacion/diapositivas/plantilla.dart';
 
-class Diapositiva11 extends StatelessWidget {
+class Introduccion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -20,8 +20,7 @@ class Diapositiva11 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva14",
-          titulo: "13. Imagen del enrutador del backend",
+          siguienteDiapositiva: "indice",
         ),
       ),
     );
@@ -30,12 +29,14 @@ class Diapositiva11 extends StatelessWidget {
   Widget _widgetPrincipal(Size size) {
     return Center(
       child: Container(
-        width: size.width * 0.9,
-        child: Image.asset(
-          "assets/images/rutasbackend.png",
-          fit: BoxFit.fill,
-        ),
-      ),
+          width: size.width,
+          height: size.height,
+          child: Center(
+            child: Text(
+              "Mi idea",
+              style: TextStyle(fontSize: 40, fontFamily: "Montserrat-Bold"),
+            ),
+          )),
     );
   }
 }

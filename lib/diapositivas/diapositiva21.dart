@@ -33,11 +33,11 @@ class Diapositiva21 extends StatelessWidget {
         child: Row(
           children: <Widget>[
             Flexible(
-              flex: 1,
+              flex: 2,
               child: Center(
                 child: Container(
                   height: size.height * 0.3,
-                  width: size.width * 0.55,
+                  width: size.width * 0.6,
                   margin: EdgeInsets.only(left: 30),
                   child: Image.asset(
                     "assets/images/diapositiva21.png",

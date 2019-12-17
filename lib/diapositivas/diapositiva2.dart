@@ -92,11 +92,15 @@ class Diapositiva2 extends StatelessWidget {
                         vertical: size.height * 0.05,
                         horizontal: size.width * 0.05),
                     child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -115,11 +119,15 @@ class Diapositiva2 extends StatelessWidget {
                         vertical: size.height * 0.05,
                         horizontal: size.width * 0.05),
                     child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -146,7 +154,7 @@ class Diapositiva2 extends StatelessWidget {
                     children: <Widget>[
                       Container(
                         height: size.height * 0.3,
-                        child: Image.asset("assets/images/yo.jpeg"),
+                        child: Image.asset("assets/images/yo.JPG"),
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 10),

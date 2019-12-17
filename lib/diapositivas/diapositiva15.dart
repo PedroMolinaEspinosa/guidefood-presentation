@@ -198,7 +198,7 @@ class Diapositiva15 extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Container(
-                          margin: EdgeInsets.only(top: 15, bottom: 20),
+                          margin: EdgeInsets.only(top: 17, bottom: 16),
                           child: Icon(
                             Icons.lens,
                             size: 10,

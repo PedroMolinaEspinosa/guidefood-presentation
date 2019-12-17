@@ -21,7 +21,7 @@ class Diapositiva41 extends StatelessWidget {
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
           siguienteDiapositiva: "diapositiva42",
-          titulo: "41. Agradecimientos",
+          titulo: "Agradecimientos",
         ),
       ),
     );
@@ -67,7 +67,7 @@ class Diapositiva41 extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.only(left: 20),
                     child: Text(
-                      "José David, un sevillano en Cáceres, mi compañero de trabajo. \'to buena gente\'.",
+                      "José David, un sevillano en Cáceres, mi compañero de trabajo.",
                       maxLines: 3,
                       style: TextStyle(
                           fontSize: 20, fontFamily: "Montserrat-Bold"),
@@ -152,7 +152,7 @@ class Diapositiva41 extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.only(left: 20),
                     child: Text(
-                      "Fairouz, norteña por los sures, una moza muy apañá.",
+                      "Fairouz, norteña por los sures.",
                       maxLines: 3,
                       style: TextStyle(
                           fontSize: 20, fontFamily: "Montserrat-Bold"),

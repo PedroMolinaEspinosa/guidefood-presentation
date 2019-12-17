@@ -20,8 +20,8 @@ class Diapositiva13 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva14",
-          titulo: "13. Tecnologías desechadas",
+          siguienteDiapositiva: "diapositiva9",
+          titulo: "10. Tecnologías desechadas",
         ),
       ),
     );

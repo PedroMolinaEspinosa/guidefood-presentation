@@ -20,8 +20,8 @@ class Diapositiva42 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva2",
-          titulo: "42. ¿Preguntas?",
+          siguienteDiapositiva: "introduccion",
+          titulo: "¿Preguntas?",
         ),
       ),
     );
