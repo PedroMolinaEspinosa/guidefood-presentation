@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guidefood_presentacion/diapositivas/plantilla.dart';
 
-class Diapositiva22 extends StatelessWidget {
+class Diapositiva34 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -20,8 +20,8 @@ class Diapositiva22 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva23",
-          titulo: "22. Pantalla Splash",
+          siguienteDiapositiva: "diapositiva35",
+          titulo: "34. Widget Navigation Drawer",
         ),
       ),
     );
@@ -30,10 +30,10 @@ class Diapositiva22 extends StatelessWidget {
   Widget _widgetPrincipal(Size size) {
     return Center(
       child: Container(
-        width: size.width * 0.7,
+        width: size.width * 0.9,
         height: size.height,
         child: Image.asset(
-          "assets/images/splash2.png",
+          "assets/images/drawer3.png",
           fit: BoxFit.fill,
         ),
       ),

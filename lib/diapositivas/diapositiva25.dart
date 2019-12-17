@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guidefood_presentacion/diapositivas/plantilla.dart';
 
-class Diapositiva20 extends StatelessWidget {
+class Diapositiva25 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -20,8 +20,8 @@ class Diapositiva20 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva21",
-          titulo: "20. Datos (provider)",
+          siguienteDiapositiva: "diapositiva26",
+          titulo: "25. Pantalla del listado de recetas",
         ),
       ),
     );
@@ -34,27 +34,32 @@ class Diapositiva20 extends StatelessWidget {
           children: <Widget>[
             Flexible(
               flex: 1,
-              child: Container(
-                margin: EdgeInsets.only(
-                    left: size.width * 0.03, right: size.width * 0.1),
-                child: Text(
-                  "El frontend obtiene datos del backend a\ntravés de un provider utilizando un\nmétodo que devuelve un tipo Future.",
-                  maxLines: 3,
-                  textAlign: TextAlign.justify,
-                  style: TextStyle(fontSize: 20, fontFamily: "Montserrat-Bold"),
+              child: Center(
+                child: Container(
+                  height: size.height * 0.45,
+                  width: size.width * 0.55,
+                  margin: EdgeInsets.only(left: 30),
+                  child: Image.asset(
+                    "assets/images/listado7.png",
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
             ),
             Flexible(
               flex: 1,
-              child: Container(
+              child: Center(
+                child: Container(
+                  margin: EdgeInsets.only(right: 20),
                   width: size.width * 0.4,
-                  height: size.height * 0.64,
+                  height: size.height * 0.26,
                   child: Image.asset(
-                    "assets/images/provider.png",
+                    "assets/images/listado6.png",
                     fit: BoxFit.fill,
-                  )),
-            ),
+                  ),
+                ),
+              ),
+            )
           ],
         ),
       ),

@@ -14,8 +14,28 @@ import 'package:guidefood_presentacion/diapositivas/diapositiva2.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva20.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva21.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva22.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva23.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva24.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva25.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva26.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva27.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva28.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva29.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva3.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva30.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva31.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva32.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva33.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva34.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva35.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva36.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva37.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva38.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva39.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva4.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva40.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva41.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositiva42.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva5.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva6.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva7.dart';
@@ -46,5 +66,25 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     'diapositiva20': (BuildContext context) => Diapositiva20(),
     'diapositiva21': (BuildContext context) => Diapositiva21(),
     'diapositiva22': (BuildContext context) => Diapositiva22(),
+    'diapositiva23': (BuildContext context) => Diapositiva23(),
+    'diapositiva24': (BuildContext context) => Diapositiva24(),
+    'diapositiva25': (BuildContext context) => Diapositiva25(),
+    'diapositiva26': (BuildContext context) => Diapositiva26(),
+    'diapositiva27': (BuildContext context) => Diapositiva27(),
+    'diapositiva28': (BuildContext context) => Diapositiva28(),
+    'diapositiva29': (BuildContext context) => Diapositiva29(),
+    'diapositiva30': (BuildContext context) => Diapositiva30(),
+    'diapositiva31': (BuildContext context) => Diapositiva31(),
+    'diapositiva32': (BuildContext context) => Diapositiva32(),
+    'diapositiva33': (BuildContext context) => Diapositiva33(),
+    'diapositiva34': (BuildContext context) => Diapositiva34(),
+    'diapositiva35': (BuildContext context) => Diapositiva35(),
+    'diapositiva36': (BuildContext context) => Diapositiva36(),
+    'diapositiva37': (BuildContext context) => Diapositiva37(),
+    'diapositiva38': (BuildContext context) => Diapositiva38(),
+    'diapositiva39': (BuildContext context) => Diapositiva39(),
+    'diapositiva40': (BuildContext context) => Diapositiva40(),
+    'diapositiva41': (BuildContext context) => Diapositiva41(),
+    'diapositiva42': (BuildContext context) => Diapositiva42(),
   };
 }

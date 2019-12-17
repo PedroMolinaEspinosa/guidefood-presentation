@@ -85,10 +85,13 @@ class Diapositiva8 extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -109,10 +112,13 @@ class Diapositiva8 extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -133,10 +139,13 @@ class Diapositiva8 extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -157,10 +166,13 @@ class Diapositiva8 extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),
@@ -181,10 +193,13 @@ class Diapositiva8 extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Icon(
-                          Icons.lens,
-                          size: 10,
-                          color: Colors.black,
+                        Container(
+                          margin: EdgeInsets.only(top: 7),
+                          child: Icon(
+                            Icons.lens,
+                            size: 10,
+                            color: Colors.black,
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(left: 10),

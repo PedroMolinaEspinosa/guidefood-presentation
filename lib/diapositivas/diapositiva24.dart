@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guidefood_presentacion/diapositivas/plantilla.dart';
 
-class Diapositiva21 extends StatelessWidget {
+class Diapositiva24 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -20,8 +20,8 @@ class Diapositiva21 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva22",
-          titulo: "21. Pantalla Splash",
+          siguienteDiapositiva: "diapositiva25",
+          titulo: "24. Pantalla del listado de recetas",
         ),
       ),
     );
@@ -35,14 +35,27 @@ class Diapositiva21 extends StatelessWidget {
             Flexible(
               flex: 1,
               child: Center(
-                child: Container(
-                  height: size.height * 0.3,
-                  width: size.width * 0.55,
-                  margin: EdgeInsets.only(left: 30),
-                  child: Image.asset(
-                    "assets/images/diapositiva21.png",
-                    fit: BoxFit.fill,
-                  ),
+                child: Column(
+                  children: <Widget>[
+                    Container(
+                      height: size.height * 0.2,
+                      width: size.width * 0.25,
+                      margin: EdgeInsets.only(left: 30, top: 20),
+                      child: Image.asset(
+                        "assets/images/listado3.png",
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                    Container(
+                      height: size.height * 0.24,
+                      width: size.width * 0.4,
+                      margin: EdgeInsets.only(left: 30, top: 30),
+                      child: Image.asset(
+                        "assets/images/listado4.png",
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -50,10 +63,11 @@ class Diapositiva21 extends StatelessWidget {
               flex: 1,
               child: Center(
                 child: Container(
-                  width: 320,
-                  height: 500,
+                  margin: EdgeInsets.only(right: 20),
+                  width: size.width * 0.5,
+                  height: size.height * 0.4,
                   child: Image.asset(
-                    "assets/images/splash.png", 
+                    "assets/images/listado5.png",
                     fit: BoxFit.fill,
                   ),
                 ),
