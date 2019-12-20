@@ -20,8 +20,8 @@ class Diapositiva21 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva22",
-          titulo: "21. Pantalla Splash",
+          siguienteDiapositiva: "diapositiva23",
+          titulo: "19. Pantalla Splash",
         ),
       ),
     );
@@ -53,7 +53,7 @@ class Diapositiva21 extends StatelessWidget {
                   width: 320,
                   height: 500,
                   child: Image.asset(
-                    "assets/images/splash.png", 
+                    "assets/images/splash.png",
                     fit: BoxFit.fill,
                   ),
                 ),

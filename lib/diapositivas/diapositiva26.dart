@@ -21,7 +21,7 @@ class Diapositiva26 extends StatelessWidget {
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
           siguienteDiapositiva: "diapositiva27",
-          titulo: "26. Pantalla del selector de ingredientes",
+          titulo: "23. Pantalla del selector de ingredientes",
         ),
       ),
     );

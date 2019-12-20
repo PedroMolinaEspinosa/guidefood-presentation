@@ -20,7 +20,7 @@ class Introduccion extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "indice",
+          siguienteDiapositiva: "esquema",
         ),
       ),
     );

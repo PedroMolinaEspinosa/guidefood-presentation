@@ -41,6 +41,8 @@ import 'package:guidefood_presentacion/diapositivas/diapositiva6.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva7.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva8.dart';
 import 'package:guidefood_presentacion/diapositivas/diapositiva9.dart';
+import 'package:guidefood_presentacion/diapositivas/diapositivaHero.dart';
+import 'package:guidefood_presentacion/diapositivas/esquema.dart';
 import 'package:guidefood_presentacion/diapositivas/indice.dart';
 import 'package:guidefood_presentacion/diapositivas/introduccion.dart';
 
@@ -89,6 +91,8 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     'diapositiva41': (BuildContext context) => Diapositiva41(),
     'diapositiva42': (BuildContext context) => Diapositiva42(),
     'indice': (BuildContext context) => Indice(),
+    'esquema': (BuildContext context) => Esquema(),
     'introduccion': (BuildContext context) => Introduccion(),
+    'diapositiva_hero': (BuildContext context) => DiapositivaHero(),
   };
 }

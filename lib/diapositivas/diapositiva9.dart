@@ -20,7 +20,7 @@ class Diapositiva9 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva10",
+          siguienteDiapositiva: "diapositiva14",
           titulo: "11. Imagen del modelo del backend",
         ),
       ),

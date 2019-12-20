@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guidefood_presentacion/diapositivas/plantilla.dart';
 
-class Diapositiva19 extends StatelessWidget {
+class Esquema extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -20,8 +20,8 @@ class Diapositiva19 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva20",
-          titulo: "17. Frontend",
+          siguienteDiapositiva: "indice",
+          titulo: "Esquema",
         ),
       ),
     );
@@ -32,10 +32,7 @@ class Diapositiva19 extends StatelessWidget {
       child: Container(
         width: size.width,
         height: size.height,
-        child: Image.asset(
-          "assets/images/frontend.jpg",
-          fit: BoxFit.fill,
-        ),
+        child: Image.asset("assets/images/esquema.png", fit: BoxFit.fill),
       ),
     );
   }

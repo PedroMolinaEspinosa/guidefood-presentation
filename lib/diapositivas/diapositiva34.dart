@@ -20,8 +20,8 @@ class Diapositiva34 extends StatelessWidget {
         ),
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
-          siguienteDiapositiva: "diapositiva35",
-          titulo: "34. Widget Navigation Drawer",
+          siguienteDiapositiva: "diapositiva_hero",
+          titulo: "31. Hero animation",
         ),
       ),
     );
@@ -30,11 +30,16 @@ class Diapositiva34 extends StatelessWidget {
   Widget _widgetPrincipal(Size size) {
     return Center(
       child: Container(
-        width: size.width * 0.9,
-        height: size.height,
-        child: Image.asset(
-          "assets/images/drawer3.png",
-          fit: BoxFit.fill,
+        width: size.width * 0.3,
+        height: size.width * 0.3,
+        child: Hero(
+          child: FadeInImage(
+            fadeInDuration: Duration(seconds: 1),
+            placeholder: AssetImage("assets/images/transparent.png"),
+            image: AssetImage("assets/images/funny.jpg"),
+            fit: BoxFit.fitWidth,
+          ),
+          tag: "null",
         ),
       ),
     );

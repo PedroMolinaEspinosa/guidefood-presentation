@@ -21,7 +21,7 @@ class Diapositiva30 extends StatelessWidget {
         child: Plantilla(
           widgetPasado: _widgetPrincipal(size),
           siguienteDiapositiva: "diapositiva31",
-          titulo: "30. Pantalla de favoritos y valorados",
+          titulo: "27. Pantalla de favoritos y valorados",
         ),
       ),
     );
